@@ -36,7 +36,7 @@ conda install -c conda-forge quaternion
 
 
 ## Usage
-The **only module** you need to import to visualize camera with its extrinsic parameter is **'CameraPoseVisualizer'** from 'util.camera_pose_visualizer'
+To visualize extrinsic camera parameters, the **only module** you need to import is, **'CameraPoseVisualizer'** from 'util.camera_pose_visualizer'
 ```c
 from util.camera_pose_visualizer import CameraPoseVisualizer
 ```
