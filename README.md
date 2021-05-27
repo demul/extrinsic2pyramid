@@ -46,7 +46,7 @@ visualizer = CameraPoseVisualizer([-50, 50], [-50, 50], [0, 100])
 
 
 
-Conver extrinsic matrix with visualizer. it has 3 argument, extrinsic matrix, color of pyramid, scale of pyramid. the color of pyramid can be both represented as a character like 'r', 'c', 'k'. and represented as RGBa sequence.
+Conver extrinsic matrix with visualizer. it has 3 argument, extrinsic matrix, color of pyramid, scale of pyramid. The color of pyramid can be both represented as a character like 'r', 'c', 'k', and represented as RGBa sequence.
 ```c
 visualizer.extrinsic2pyramid(np.eye(4), 'c', 10)
 ```
