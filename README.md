@@ -57,7 +57,7 @@ visualizer.extrinsic2pyramid(np.eye(4), 'c', 10)
 
 
 
-The core source-code of this module is just about-50-lines(not importing any other sub-module). About-50-line is all you need to grasp this module, that means, easy to be merged to your project, and easy to be a base-module for more complex architecture(see demo2.py).
+The core source-code of this module is just about-50-lines(not importing any other non-basic sub-module). About-50-line is all you need to grasp this module, that means, easy to be merged to your project, and easy to be a base-module for more complex architecture(see demo2.py).
 
 
 
@@ -70,7 +70,7 @@ And this dataset share its hierarchy with other datasets like, YCB-VIDEO[2](http
 
 ## Demo
 ### demo1.py
-In fact, demo1.py is all about this module.
+In fact, just 11-lines of demo1.py is all about the usage of this module.
 
 
 
@@ -78,7 +78,7 @@ In fact, demo1.py is all about this module.
 
 
 ### demo2.py
-This script is a example that use this module for more complex architecture. Frankly, I made this module as a visualizing tool to visually analyze camera trajectory of YCB-M dataset before numerically preprocess it. I need indoor scenarios which have these constraints, 1.fixed multiple view cameras and we know its parameters. 2.cameras maintain same pose along all scenes. And there is a no Dataset perfectly match with these. So, i decide to search another scenario, 1.static scene, 2.moving camera, 3.but along the scenes, there must be at least 4 point, which most of camera-trajectory from different scenes intersect(and camera-pose at that points are similar). Picking up intersecting points and Using them as like fixed multiple view cameras will quite work well for me. By watching trajectory scene-wisely and frame-wisely, I can make a rough estimate about the posibility whether this dataset can pass the constraint-3.
+This script is a example that manipulate this module for more complex architecture. Frankly, I made this module as a visualizing tool to visually analyze camera trajectory of YCB-M dataset before numerically preprocess it. I need indoor scenarios which have these constraints, 1.fixed multiple view cameras and we know its parameters. 2.cameras maintain same pose along all scenes. But there is a no Dataset perfectly match with these. So, i have to search other scenarios. The alternative scenario i found is that, 1.static scene, 2.moving camera, 3.but along the scenes, there must be at least 4 point, which most of camera-trajectory from different scenes intersect(and camera-pose at that points are similar). Picking up intersecting points and Using them as like fixed multiple view cameras will quite work well for me. But before preprocess it in earnest. By watching trajectory scene-wisely and frame-wisely, I can make a rough estimate and a intuition about the posibility whether this dataset can pass the constraint-3.
 
 ![img](./images/img2.png)
 ![img](./images/img3.png)
@@ -87,6 +87,9 @@ This script is a example that use this module for more complex architecture. Fra
 
 ## Roadmap
 Utility that can toggle trajectory scene-wisely or frame-wisely.
+
+
+
 GUI Interface.
 
 
