@@ -62,9 +62,9 @@ The core source-code of this module is just about-50-lines(not importing any oth
 
 
 ## Dataset
-The sample camera parameters in dataset directory is from YCB-M Dataset[1](https://zenodo.org/record/2579173#.YK-mzaj7SUk).
+The sample camera parameters in dataset directory is from YCB-M Dataset	[&#91;1&#93;](https://zenodo.org/record/2579173#.YK-mzaj7SUk).
 The data hierarchy used in this dataset is one of a standard hierarchy that, in particular, almost of NVIDIA's open-sources support.
-And this dataset share its hierarchy with other datasets like, YCB-VIDEO[2](https://rse-lab.cs.washington.edu/projects/posecnn/) and FAT[3](https://research.nvidia.com/publication/2018-06_Falling-Things).
+And this dataset share its hierarchy with other datasets like, YCB-VIDEO[&#91;2&#93;](https://rse-lab.cs.washington.edu/projects/posecnn/) and FAT[&#91;3&#93;](https://research.nvidia.com/publication/2018-06_Falling-Things).
 
 
 
