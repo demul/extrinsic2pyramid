@@ -4,7 +4,7 @@ Visualize Camera's Pose Using Extrinsic Parameter by Plotting Pyramid Model on 3
 ![img](./images/img.png)
 
 ## Intro
-A very simple and straightforward module for visualize camera pose on 3D space.
+A very simple and straightforward module for visualizing camera pose on 3D space.
 This module just have a only utility, as like its name, to convert extrinsic camera parameter(transform matrix) to visual 3D square pyramid, the pyramid's vertex not on the base side(square) is the camera's focal point and The optical axis passes through the focal point and the center of the base.
 
 
