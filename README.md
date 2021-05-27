@@ -88,14 +88,14 @@ This script is a example that manipulate this module for more complex architectu
 
 
 
-The colors represent different sceneS.
+The colors represent different scenes.
 
 
 ![img](./images/img3.png)
 
 
 
-The distribution of color represents Frames.
+The distribution of color represents different frames.
 
 
 
