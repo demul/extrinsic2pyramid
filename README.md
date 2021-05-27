@@ -8,6 +8,10 @@ A very simple and straightforward module for visualize camera pose on 3D space.
 This module just have a only utility, as like its name, to convert extrinsic camera parameter(transform matrix) to visual 3D square pyramid, the pyramid's vertex not on the base side(square) is the camera's focal point and The optical axis passes through the focal point and the center of the base.
 
 
+
+Note that, this module do not contain any calibration algorithm. It's just for visualizing calibrated parameter.
+
+
 ## Requirements
 numpy >= 1.2
 
@@ -53,7 +57,7 @@ visualizer.extrinsic2pyramid(np.eye(4), 'c', 10)
 
 
 
-... That's all about this module. There are other python packages that can visualize camera pose on visual 3D space and even have more utilities, but, For who just want to visualize camera pose and do not want to spend time to learn NEW BIG multi-purpose 3D visual processing library, for example, for SLAM Engineer who just want to qualitatively overview his localization result, or for 3D Machine Learning Engineer who just want to visually overview geometric constraint of new data before preprocess it, This Module can be a quite reasonable choice.
+... That's all about this module. There are other python packages that can visualize camera pose on visual 3D space and even have more utilities, but, For who just want to visualize camera pose and do not want to spend time to learn NEW BIG multi-purpose 3D graphical library, for example, for SLAM Engineer who just want to qualitatively overview his localization result, or for 3D Machine Learning Engineer who just want to visually overview geometric constraint of new data before preprocess it, This Module can be a quite reasonable choice.
 
 
 
