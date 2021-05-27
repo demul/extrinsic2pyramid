@@ -85,7 +85,18 @@ In fact, just 11-lines of demo1.py is all about the usage of this module.
 This script is a example that manipulate this module for more complex architecture. Frankly, I made this module as a visualizing tool to visually analyze camera trajectory of YCB-M dataset before numerically preprocess it. I need indoor scenarios which have these constraints, 1.fixed multiple view cameras and we know its parameters. 2.cameras maintain same pose along all scenes. But there is a no dataset perfectly match with these. So, i have to search other scenarios. The alternative scenario i found is that, 1.static scene, 2.moving camera, 3.but along the scenes, there must be at least 4 point, which most of camera-trajectory from different scenes intersect(and camera-pose at that points are similar). Picking up intersecting points and Using them as like fixed multiple view cameras will quite work well for me. But before preprocess it in earnest. By watching trajectory scene-wisely and frame-wisely, I can make a rough estimate and a intuition about the posibility whether this dataset can pass the constraint-3.
 
 ![img](./images/img2.png)
+
+
+
+The colors represent different sceneS.
+
+
 ![img](./images/img3.png)
+
+
+
+The distribution of color represents Frames.
+
 
 
 
