@@ -111,5 +111,11 @@ GUI Interface.
 
 ## References
 [1] T. Grenzdörffer, M. Günther, and J. Hertzberg, "YCB-M: A Multi-Camera RGB-D Dataset for Object Recognition and 6DoF Pose Estimation".
+
+
+
 [2] Y. Xiang, T. Schmidt, V. Narayanan and D. Fox. "PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes".
+
+
+
 [3] J. Tremblay, T. To, and S. Birchfield, Falling Things: "A Synthetic Dataset for 3D Object Detection and Pose Estimation".
