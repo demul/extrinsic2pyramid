@@ -7,7 +7,9 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 class CameraPoseVisualizer:
     def __init__(self, xlim, ylim, zlim):
         self.fig = plt.figure(figsize=(18, 7))
-        self.ax = self.fig.gca(projection='3d')
+        # depricated
+        # self.ax = self.fig.gca(projection='3d') 
+        self.ax = self.fig.add_subplot(projection='3d')
         self.ax.set_aspect("auto")
         self.ax.set_xlim(xlim)
         self.ax.set_ylim(ylim)
