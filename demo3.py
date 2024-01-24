@@ -14,11 +14,11 @@ def plot_scenewise(plotly_viz=False):
     dts_name = [os.path.split(os.path.split(i)[0])[-1] for i in list_scene]
     if plotly_viz:
         final_layout = go.Figure()
-        final_layout.add_annotation(dict(font=dict(color='black', size=20),
-                                         x=0,
+        final_layout.add_annotation(dict(font=dict(color='black', size=40),
+                                         x=0.4,
                                          y=0,
                                          showarrow=False,
-                                         text='Scenewise_visualization',
+                                         text='Scenewise visualization',
                                          xanchor='left'))
         final_layout.update_layout(
             scene=dict(
@@ -54,11 +54,11 @@ def plot_framewise(plotly_viz=False):
     list_scene = list(filter(os.path.isdir, glob.glob(os.path.join('dataset', '*', 'trajectory'))))
     if plotly_viz:
         final_layout = go.Figure()
-        final_layout.add_annotation(dict(font=dict(color='black', size=20),
-                                         x=0,
+        final_layout.add_annotation(dict(font=dict(color='black', size=40),
+                                         x=0.4,
                                          y=0,
                                          showarrow=False,
-                                         text='Scenewise_visualization',
+                                         text='Framewise visualization',
                                          xanchor='left'))
         final_layout.update_layout(
             scene=dict(
