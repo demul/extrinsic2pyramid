@@ -28,6 +28,12 @@ matplotlib
 glob
 
 
+
+plotly
+
+pandas
+
+
 ## Trouble Shooting
 ### ImportError: numpy.core.multiarray failed to import
 ```c
@@ -97,7 +103,11 @@ The colors represent different scenes.
 
 The distribution of color represents different frames.
 
+### demo3.py
+Interactive functionality has been added using [plotly](https://plotly.com/python/) framework.
+![img](./images/g1.gif)
 
+![img](./images/g2.gif)
 
 
 ## Roadmap
